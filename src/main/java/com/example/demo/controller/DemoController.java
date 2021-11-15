@@ -10,6 +10,7 @@ import java.util.Map;
 @RestController
 public class DemoController {
 
+
     @RequestMapping("/demo")
     public Map<String,String> getReturn(){
         Map<String,String> map =  new HashMap<>();
