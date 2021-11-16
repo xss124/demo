@@ -15,7 +15,6 @@ public class DemoController {
     public Map<String,String> getReturn(){
         Map<String,String> map =  new HashMap<>();
         map.put("code","200");
-
         return map;
     }
 }
